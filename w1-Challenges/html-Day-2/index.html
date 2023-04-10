@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zinaida's Challenge number 2</title>
+  </head>
+  <body>
+    <div>
+      <h2>Display Radio Buttons</h2>
+
+      <form action="#">
+        <p>Please select your favorite country:</p>
+        <input id="usa" type="radio" name="fav-country" value="USA" />
+        <label for="usa">USA</label><br />
+        <input id="uk" type="radio" name="fav-country" value="UK" />
+        <label for="uk">UK</label><br />
+        <input id="austr" type="radio" name="fav-country" value="Australia" />
+        <label for="austr">Australia</label><br />
+        <input id="france" type="radio" name="fav-country" value="France" />
+        <label for="france">France</label>
+
+        <br />
+
+        <p>Please select your age:</p>
+        <input id="age1" type="radio" name="age" value="20" />
+        <label for="age1">0 - 20</label><br />
+        <input id="age2" type="radio" name="age" value="40" />
+        <label for="age2">21 - 40</label><br />
+        <input id="age3" type="radio" name="age" value="60" />
+        <label for="age3">41 - 60</label><br />
+        <input id="age4" type="radio" name="age" value="100" />
+        <label for="age4">61 - 100</label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <br />
+
+    <div>
+      <h2>Show Checkboxes</h2>
+      <form action="#">
+        <input id="pet1" type="checkbox" name="pet1" value="Dog" />
+        <label for="pet1"> I have a Dog </label><br />
+        <input id="pet2" type="checkbox" name="pet2" value="Cat" />
+        <label for="pet2"> I have a cat </label><br />
+        <input id="pet3" type="checkbox" name="pet3" value="Rabbit" />
+        <label for="pet3"> I have a Rabbit </label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div>
+      <h2>File Upload Input</h2>
+      <form action="#">
+        <label for="myfile">Select files:</label>
+        <input id="myfile" type="file" name="myfile" multiple /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div>
+      <h2>Textarea</h2>
+      <form action="#">
+        <p><label for="wizzairreview"> Review of Wizz Air </label></p>
+        <textarea id="wizzairreview" name="wizzairreview" rows="4" cols="50">
+            Wizz Air - Grab Amazing Discounts on Flights from 950+ Airlines. Book Now! Wizz Air - Cheap Tickets. 
+            Say goodbye to overpriced flights. Book flights now! 
+        </textarea>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div>
+      <h2>The Select Element</h2>
+      <!-- The Select element is used to create a drop-down list -->
+      <form action="#">
+        <label for="dishes"> Choose a dish:</label>
+        <select id="dishes" name="dishes">
+          <option value="pizza">Pizza</option>
+          <option value="beefmarinated">Beef Marinated</option>
+          <option value="vrisotto">Vegetarian Risotto</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
